@@ -10,7 +10,7 @@ $action = $request[“queryResult”][“action”];
 $userId = $request[‘originalDetectIntentRequest’][‘payload’][‘data’][‘source’][‘userId’];
 $opts = [
 “http” =>[
-“header” => “Content-Type: application/json\r\n”.’Authorization: Bearer +P1Mvf+uG0wWcuW3U8ivPj5SMei7CpFg6i3EFamZ5pspjxBz10EOFEMe1BIi17X9NWK3rTLcLdjVXt1LxeAO36F1BMg9cyBLOCZhdkJXunYKsV1AjGD3CcaW57N2RetW7gupEitRI6FRFlSeoIOflQdB04t89/1O/w1cDnyilFU=’
+“header” => “Content-Type: application/json\r\n”.’Authorization: Bearer GtApg6zrXFuUTVNREMo95PvlEUOHeyg2LA2U1yJEGCQ’
 ]
 ];
 $context = stream_context_create($opts);
