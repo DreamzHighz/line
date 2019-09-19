@@ -27,7 +27,7 @@ CURLOPT_CUSTOMREQUEST => “POST”,
 //CURLOPT_POSTFIELDS => “{\r\n\r\n \”to\”: \”Ub8c6ef4a7880161aa490bd7bd11d0133\”,\r\n\r\n \”messages\”: [{\r\n\r\n \”type\”: \”text\”,\r\n\r\n \”text\”: \”$queryText https://modcumram.com/hook/push.php?uid=$userId\"\r\n\r\n }]\r\n\r\n}”,
 CURLOPT_POSTFIELDS => “{\r\n\r\n \”to\”: \”user_id line ของเรา\”,\r\n\r\n \”messages\”: [\r\n \t{\r\n \”type\”: \”flex\”,\r\n \”altText\”: \”Flex Message\”,\r\n \”contents\”: {\r\n \”type\”: \”bubble\”,\r\n \”direction\”: \”rtl\”,\r\n \”body\”: {\r\n \”type\”: \”box\”,\r\n \”layout\”: \”vertical\”,\r\n \”spacing\”: \”sm\”,\r\n \”contents\”: [\r\n {\r\n \”type\”: \”image\”,\r\n \”url\”: \”https://cdn4.iconfinder.com/data/icons/web-design-and-development-7-2/128/301-512.png\",\r\n \”aspectMode\”: \”fit\”,\r\n \”action\”: {\r\n \”type\”: \”uri\”,\r\n \”uri\”: \”https://url_code_push/hook/push.php?uid=$userId\"\r\n }\r\n },\r\n {\r\n \”type\”: \”text\”,\r\n \”text\”: \”$queryText\”,\r\n \”align\”: \”center\”\r\n }\r\n ]\r\n },\r\n \”styles\”: {\r\n \”body\”: {\r\n \”separator\”: true\r\n }\r\n }\r\n }\r\n}\r\n ]\r\n}\r\n”,
 CURLOPT_HTTPHEADER => array(
-“authorization: Bearer line_token”,
+“authorization: Bearer GtApg6zrXFuUTVNREMo95PvlEUOHeyg2LA2U1yJEGCQ”,
 “cache-control: no-cache”,
 “content-type: application/json”,
 “postman-token: 7f766920-b207–53c4–6059–6d20ceec77ea”
