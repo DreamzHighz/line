@@ -10,7 +10,7 @@ $action = $request[“queryResult”][“action”];
 $userId = $request[‘originalDetectIntentRequest’][‘payload’][‘data’][‘source’][‘userId’];
 $opts = [
 “http” =>[
-“header” => “Content-Type: application/json\r\n”.’Authorization: Bearer line_token’
+“header” => “Content-Type: application/json\r\n”.’Authorization: Bearer +P1Mvf+uG0wWcuW3U8ivPj5SMei7CpFg6i3EFamZ5pspjxBz10EOFEMe1BIi17X9NWK3rTLcLdjVXt1LxeAO36F1BMg9cyBLOCZhdkJXunYKsV1AjGD3CcaW57N2RetW7gupEitRI6FRFlSeoIOflQdB04t89/1O/w1cDnyilFU=’
 ]
 ];
 $context = stream_context_create($opts);
@@ -43,7 +43,7 @@ curl_setopt( $chOne, CURLOPT_POSTFIELDS, “message=$message_all&imageThumbnail=
 // follow redirects
 curl_setopt( $chOne, CURLOPT_FOLLOWLOCATION, 1);
 //ADD header array
-$headers = array( ‘Content-type: application/x-www-form-urlencoded’, ‘Authorization: Bearer linenotify_token’, );
+$headers = array( ‘Content-type: application/x-www-form-urlencoded’, ‘Authorization: Bearer GtApg6zrXFuUTVNREMo95PvlEUOHeyg2LA2U1yJEGCQ’, );
 curl_setopt($chOne, CURLOPT_HTTPHEADER, $headers);
 //RETURN
 curl_setopt( $chOne, CURLOPT_RETURNTRANSFER, 1);
